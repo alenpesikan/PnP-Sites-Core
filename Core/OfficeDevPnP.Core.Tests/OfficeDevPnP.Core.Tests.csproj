@@ -375,7 +375,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="App.config.sample" />
     <None Include="packages.config" />
     <None Include="Resources\custom.spcolor">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
