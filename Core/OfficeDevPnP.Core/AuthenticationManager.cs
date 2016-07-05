@@ -43,7 +43,7 @@ namespace OfficeDevPnP.Core
         /// <returns>ClientContext to be used by CSOM code</returns>
         public ClientContext GetSharePointOnlineAuthenticatedContextTenant(string siteUrl, string tenantUser, string tenantUserPassword)
         {
-            var spoPassword = Utilities.EncryptionUtility.ToSecureString(tenantUserPassword);
+            var spoPassword = EncryptionUtility.ToSecureString(tenantUserPassword);
             return GetSharePointOnlineAuthenticatedContextTenant(siteUrl, tenantUser, spoPassword);
         }
 
